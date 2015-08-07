@@ -31,8 +31,8 @@ function selection_sort($array)
 		}
 		$array[$min_key] = $array[$i];
 		$array[$i] = $min_value;
-		// $array[$max_key] = $array[$i];
-		// $array[$i] = $max_value;
+		$array[$max_key] = $array[$i];
+		$array[$i] = $max_value;
 	}
 	return $array;
 }
