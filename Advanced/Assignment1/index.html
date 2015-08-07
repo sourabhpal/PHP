@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Assignment 1: Survey Form</title>
+	<link rel='stylesheet' type='text/css' href='style.css'></link>
+</head>
+<body>
+	<div>
+		<form action="result.php" method="post">
+			Your Name: <input class='right' type='text' name='full_name'>
+			<br>
+			<p>Dojo Location: <select class='right' name='location'>
+				<option value='Seattle'>Seattle</option>
+				<option value='Seattle'>Silicon Valley</option>
+				<option value='Seattle'>LA</option>
+			</select></p>
+			<p>Favorite Language: <select class='right' name='language'>
+				<option value='PHP'>PHP</option>
+				<option value='JavaScript'>JavaScript</option>
+				<option value='Python'>Python</option>
+				<option value='Python'>Ruby</option>
+			</select></p>
+			Comment (optional): <input class='right' id='textbox' type='text' name='comment'>
+			<br>
+			<input class='right' id='submit' type='submit' value='Submit'>
+		</form>
+	</div>
+</body>
+</html>
